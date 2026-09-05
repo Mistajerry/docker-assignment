@@ -1,4 +1,3 @@
-  GNU nano 8.7.1                                                                                        README.md *
 # Node.js Docker Assignment
 
 ## Project Overview
@@ -16,7 +15,6 @@ This project demonstrates how to build, containerize, and deploy a simple Node.j
 
 ## Project Structure
 
-```text
 docker-assignment/
 ├── app.js
 ├── package.json
@@ -24,13 +22,39 @@ docker-assignment/
 ├── Dockerfile
 ├── .gitignore
 └── README.md
-```
 
 ## Build the Docker Image
 
-```bash
 docker build -t mistajerry14/nodejs-app:1.0 .
-```
 
 ## Run the Docker Container
 
+docker run -d -p 3000:3000 mistajerry14/nodejs-app:1.0
+
+## Docker Hub Repository
+
+Docker Hub: https://hub.docker.com/r/mistajerry14/nodejs-app
+
+# Screenshots
+
+## 1. Docker Build Command
+
+![Docker Build](images/docker-build.png)
+
+## 2. Docker Hub Image
+
+![Docker Hub Image](images/dockerhub-image.png)
+
+## 3. Running Docker Container
+
+![Docker Container](images/docker-ps.png)
+
+## 4. Live Application
+
+![Live Application](images/live-application.png)
+
+## Author
+
+Jerry Akinbo
+
+GitHub: https://github.com/Mistajerry
