@@ -43,7 +43,7 @@ Docker Hub: https://hub.docker.com/r/mistajerry14/nodejs-app
 
 ## 2. Docker Hub Image
 
-![Docker Hub Image](images/dockerhub-image.png)
+![Docker Hub Image](images/docker-hub.png)
 
 ## 3. Running Docker Container
 
